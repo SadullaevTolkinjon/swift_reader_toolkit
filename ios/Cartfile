@@ -1,0 +1,2 @@
+github "readium/swift-toolkit" ~> 2.6.1
+github "krzyzanowskim/CryptoSwift" ~> 1.4.0
