@@ -17,6 +17,11 @@
 		809B7D152B76337400FAC57D /* ReadiumAdapterGCDWebServer in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D142B76337400FAC57D /* ReadiumAdapterGCDWebServer */; };
 		809B7D172B76337800FAC57D /* ReadiumLCP in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D162B76337800FAC57D /* ReadiumLCP */; };
 		809B7D192B76337C00FAC57D /* ReadiumOPDS in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D182B76337C00FAC57D /* ReadiumOPDS */; };
+		809B7D1B2B76478700FAC57D /* R2Navigator in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D1A2B76478700FAC57D /* R2Navigator */; };
+		809B7D1D2B76478700FAC57D /* R2Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D1C2B76478700FAC57D /* R2Shared */; };
+		809B7D1F2B76478700FAC57D /* R2Streamer in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D1E2B76478700FAC57D /* R2Streamer */; };
+		809B7D212B76478700FAC57D /* ReadiumAdapterGCDWebServer in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D202B76478700FAC57D /* ReadiumAdapterGCDWebServer */; };
+		809B7D232B76478700FAC57D /* ReadiumLCP in Frameworks */ = {isa = PBXBuildFile; productRef = 809B7D222B76478700FAC57D /* ReadiumLCP */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
@@ -70,11 +75,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				809B7D192B76337C00FAC57D /* ReadiumOPDS in Frameworks */,
+				809B7D232B76478700FAC57D /* ReadiumLCP in Frameworks */,
 				809B7D132B76337000FAC57D /* R2Streamer in Frameworks */,
 				809B7D152B76337400FAC57D /* ReadiumAdapterGCDWebServer in Frameworks */,
+				809B7D1D2B76478700FAC57D /* R2Shared in Frameworks */,
 				809B7D0F2B76336600FAC57D /* R2Navigator in Frameworks */,
+				809B7D212B76478700FAC57D /* ReadiumAdapterGCDWebServer in Frameworks */,
 				809B7D172B76337800FAC57D /* ReadiumLCP in Frameworks */,
+				809B7D1F2B76478700FAC57D /* R2Streamer in Frameworks */,
 				809B7D112B76336B00FAC57D /* R2Shared in Frameworks */,
+				809B7D1B2B76478700FAC57D /* R2Navigator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +196,11 @@
 				809B7D142B76337400FAC57D /* ReadiumAdapterGCDWebServer */,
 				809B7D162B76337800FAC57D /* ReadiumLCP */,
 				809B7D182B76337C00FAC57D /* ReadiumOPDS */,
+				809B7D1A2B76478700FAC57D /* R2Navigator */,
+				809B7D1C2B76478700FAC57D /* R2Shared */,
+				809B7D1E2B76478700FAC57D /* R2Streamer */,
+				809B7D202B76478700FAC57D /* ReadiumAdapterGCDWebServer */,
+				809B7D222B76478700FAC57D /* ReadiumLCP */,
 			);
 			productName = Runner;
 			productReference = 97C146EE1CF9000F007C117D /* Runner.app */;
@@ -677,6 +692,31 @@
 		809B7D182B76337C00FAC57D /* ReadiumOPDS */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ReadiumOPDS;
+		};
+		809B7D1A2B76478700FAC57D /* R2Navigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 809B7D0B2B7207E200FAC57D /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Navigator;
+		};
+		809B7D1C2B76478700FAC57D /* R2Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 809B7D0B2B7207E200FAC57D /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Shared;
+		};
+		809B7D1E2B76478700FAC57D /* R2Streamer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 809B7D0B2B7207E200FAC57D /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Streamer;
+		};
+		809B7D202B76478700FAC57D /* ReadiumAdapterGCDWebServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 809B7D0B2B7207E200FAC57D /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = ReadiumAdapterGCDWebServer;
+		};
+		809B7D222B76478700FAC57D /* ReadiumLCP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 809B7D0B2B7207E200FAC57D /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = ReadiumLCP;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
